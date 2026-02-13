@@ -1,2 +1,11 @@
-# brief3
-analyser des données métier et produire des indicateurs clés
+📊 Sales Performance & Supply Chain Analysis (2023-2024)
+📝 Présentation du ProjetCe projet consiste en la création d'un écosystème décisionnel complet pour analyser les performances commerciales d'une entreprise internationale sur la période 2023-2024.
+L'objectif est de transformer des données brutes en insights stratégiques pour optimiser la chaîne logistique et maximiser la rentabilité.Chiffres clés du projet :CA Total : 25.60 K€ (+33% de croissance annuelle).Volume : 1 536 unités vendues.Panier Moyen : 49.04 €.
+🚀 Fonctionnalités ClésLe dashboard est articulé autour de 5 axes stratégiques :Pilotage de la Performance : Suivi en temps réel du CA et du volume par rapport à l'année N-1.Analyse Fournisseurs (Supply Chain) : Identification des partenaires critiques (Top 5 générant 48% du CA).Segmentation Produits : Analyse de la contribution par famille (Domination des Asteraceae).Intelligence Géographique : Mapping des flux de revenus (Focus majeur sur le marché chinois : 17.88 K€).Analyse des Délais (Lead Time) : Mesure des écarts logistiques pour identifier les goulots d'étranglement.
+🛠️ Stack TechniqueVisualisation : Power BI / DAX / Excel Avancé.Modélisation : Transformation de données (Power Query) et schéma en étoile.Calculs Avancés (DAX) :Délai de livraison moyen : $$Délai = DATEDIFF('Table'[DateCommande], 'Table'[DateReception], DAY)$$Croissance Year-over-Year.Calcul de Panier Moyen dynamique.
+🔍 Insights Stratégiques ExtraitsConcentration du Risque : 70% du CA dépend du marché chinois, nécessitant une diversification géographique.Saisonnalité : Identification d'un creux de performance systématique en Avril, lié à des délais de réapprovisionnement accrus en Mars.Rentabilité : Bien que les Asteraceae soient leaders en volume, le segment Anacardiaceae présente le panier moyen le plus élevé (332 €), représentant une opportunité de montée en gamme (Upselling).
+📁 Structure du DépôtBash├── Data/               # Datasets bruts (CSV/Excel)
+├── Dashboard/          # Fichier .pbix ou .xlsx
+├── Screenshots/        # Captures d'écran du dashboard
+└── README.md           # Documentation du projet
+📈 Comment utiliser ce projet ?Cloner le dépôt : git clone https://github.com/votre-username/sales-performance-analysis.gitOuvrir le fichier dans Power BI Desktop.Actualiser les sources de données vers le dossier /Data.
